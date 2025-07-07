@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
-import { stripVttNonContent } from "../src";
+import { stripVttNonContent } from "../src/index.js";
 import { describe, it, beforeAll, expect } from "bun:test";
 
 const __filename = fileURLToPath(import.meta.url);

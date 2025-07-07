@@ -16,7 +16,8 @@
     "target": "es2020",
     "outDir": "lib",
     "lib": ["dom", "es2020"],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": ["bun-types"]
   },
   "formatCodeOptions": {
     "indentSize": 2,
@@ -26,7 +27,7 @@
     "src/**/*.mts",
     "test/**/*.mts",
     "src/index.ts",
-    "test/stripVttNonContent.test.tts"
+    "test/stripVttNonContent.test.ts"
   ],
   "exclude": ["node_modules", "lib"]
 }

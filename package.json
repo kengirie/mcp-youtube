@@ -1,6 +1,7 @@
 {
-  "name": "@anaisbetts/mcp-youtube",
+  "name": "@kengirie/mcp-youtube",
   "version": "0.6.0",
+  "type": "module",
   "bin": {
     "mcp-youtube": "lib/index.mjs"
   },
@@ -10,7 +11,7 @@
     "prepublish": "git clean -xdf dist && bun build --target node src/index.ts --outdir dist",
     "test": "bun test"
   },
-  "author": "Ani Betts <anais@anaisbetts.org>",
+  "author": "kengirie <github.com/kengirie>",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.6.0",
